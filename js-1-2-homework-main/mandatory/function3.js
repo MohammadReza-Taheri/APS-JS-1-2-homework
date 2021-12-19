@@ -1,5 +1,9 @@
 /**
+ * ///////////////////////////////
+ * this exercise is for js1-3 so you don't need to solve it
+ * ///////////////////////////////
  * /*
+ * 
  *   You have to predict the output of this program WITHOUT EXECUTING IT.
  *
  *   In order to do this, try writing down the value that all variables take

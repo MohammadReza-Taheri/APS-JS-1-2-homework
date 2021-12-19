@@ -7,8 +7,12 @@
  * - makes the string all lowercase
  *
  * @format
- */
-
+ *
+ * ///////////////////////////////
+ * this function => (tidyUpString) is for js1-3 so you don't need to solve it
+ * ///////////////////////////////
+ * 
+ * /
 function tidyUpString(strArr) {}
 
 /*
