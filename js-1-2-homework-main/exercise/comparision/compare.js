@@ -10,24 +10,34 @@
 
 var studentCount = 16;
 var mentorCount = 9;
-var moreStudentsThanMentors; // finish this statement
+var moreStudentsThanMentors=function(){
+  if (studentCount>mentorCount) {
+    return true;
+  }else{return false;}
+}; // finish this statement
 
 var roomMaxCapacity = 25;
-var enoughSpaceInRoom; // finish this statement
+var enoughSpaceInRoom=true; // finish this statement
 
 var personA = "Zahra";
 var personB = "Fatemeh";
-var sameName; // finish this statement
+var sameName=function(){
+  if (personA===personB) {
+    return true;
+  }else{
+    return false;
+  }
+}; // finish this statement
 
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
-console.log("Are there more students than mentors?", moreStudentsThanMentors);
+console.log("Are there more students than mentors?", moreStudentsThanMentors());
 console.log(
   "Is there enough space in the room for all students and mentors?",
   enoughSpaceInRoom
 );
-console.log("Do person A and person B have the the same name?", sameName);
+console.log("Do person A and person B have the the same name?", sameName());
 
 /* 
   EXPECTED RESULT

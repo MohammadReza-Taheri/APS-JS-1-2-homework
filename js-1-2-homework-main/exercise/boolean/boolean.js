@@ -4,7 +4,10 @@
 //cd to the folder (you can use cd .. to move back and use "ls" to see the list of files you have)
 
 let weWillWin = true;
-
+let APSIsGreat=weWillWin;
+let AmirIsCool=APSIsGreat;
+let calculationCorrect=false;
+let just1Student=false;
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
