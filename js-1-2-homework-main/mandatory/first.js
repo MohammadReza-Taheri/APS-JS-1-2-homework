@@ -1,12 +1,12 @@
 // There are errors in this code, can you fix it to pass the tests?
 
 function sum(a,b,c) {
-    return a + b + c;
+    return (a+b+c);
 }
 
-function greeting(name, age)
-return "Hello there, I am " + name +"and I am "+ age + "years old";
-
+function greeting(name, age){
+    return "Hello there, I am " + name +" and I am "+ age + " years old";
+}
 function total(a,b) {
     let total = a + b;
     return `The total is ${total}`;
