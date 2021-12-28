@@ -8,7 +8,9 @@
  * @format
  */
 
-function calculateSalesTax() {}
+function calculateSalesTax(cost) {
+   return ((20*cost)/100);
+}
 
 /*
   CURRENCY FORMATTING
@@ -20,7 +22,9 @@ function calculateSalesTax() {}
   Remember that the prices must include the sales tax (hint: you already wrote a function for this!)
 */
 
-function addTaxAndFormatCurrency() {}
+function addTaxAndFormatCurrency(pri) {
+  return `$ ${pri+calculateSalesTax(pri)}`;
+}
 
 /* 
 ===================================================

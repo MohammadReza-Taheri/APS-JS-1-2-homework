@@ -12,8 +12,7 @@
  * @format
  */
 
-function mood() {
-  let isHappy = true;
+function mood(isHappy) {
 
   if (isHappy) {
     return "I am happy";
@@ -24,7 +23,11 @@ function mood() {
 
 function greaterThan10(num) {
   let isBigEnough;
-
+  if (num>10) {
+    isBigEnough=true;
+  }else{
+    isBigEnough=false;
+  }
   if (isBigEnough) {
     return "num is greater than 10";
   } else {
@@ -33,20 +36,20 @@ function greaterThan10(num) {
 }
 
 function sortArray(letters) {
-  let sortedLetters = letters;
+  let sortedLetters = letters.sort();
 
-  return sortedLetters;
+  return sortedLetters.join(" ");
 }
 
 function first5(numbers) {
   let sliced;
-
+  let inf=numbers.indexOf(5);
+  sliced=numbers.splice(inf,numbers.length);
   return sliced;
 }
 
 function get3rdIndex(arr) {
-  let index = 3;
-  let element;
+  let element=arr.splice(3,1);
 
   return element;
 }

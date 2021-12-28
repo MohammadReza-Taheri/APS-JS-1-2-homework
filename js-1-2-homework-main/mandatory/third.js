@@ -1,17 +1,18 @@
 /** @format */
 //add comments
 // explain what this function does. use Google!
-function whatDoIDo() {
+function whatDoIDo() {    //------------------------->Ans:This function return a random number.0<Math.random()<1 but *8 make it bigger until maximum 8.finally,the number is going to be added to one
   return Math.random() * 8 + 1;
 }
 
 // explain what does this function do, google it
 function whatICanDo(word1, word2) {
-  return word1.concat(word2);
+  return word1.concat(word2); //------->Ans:concat() is a method incorporating two different strings or array into a string or array
 }
 
 function concatenate(firstWord, secondWord, thirdWord) {
   // do you remember how concatenation works? take a look at the tests and do it yourself
+  return firstWord.concat(" "+secondWord).concat(" "+thirdWord);
 }
 
 /* 
